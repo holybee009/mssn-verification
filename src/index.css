@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "poppins";
+  src: url("https://fonts.google.com/?query=poppins") format("poppins");
+  /* Add additional font formats if necessary */
+}
+body {
+  font-family: "poppins", sans-serif;
+}

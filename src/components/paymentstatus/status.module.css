@@ -1,0 +1,55 @@
+/* paymentStatus.module.css */
+.content {
+  /* Tailwind CSS classes */
+  padding-top: 1.75rem; /* Equivalent to pt-7 */
+  padding-bottom: 0.75rem; /* Equivalent to pb-3 */
+  padding-left: 0.75rem; /* Equivalent to px-3 */
+  padding-right: 0.75rem; /* Equivalent to px-3 */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tickIcon {
+  /* Tailwind CSS classes */
+  width: 6rem; /* Equivalent to w-24 */
+  height: 6rem; /* Equivalent to h-24 */
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.4); /* Equivalent to shadow-4xl */
+  display: block;
+  background-color: transparent;
+}
+
+.statusText {
+  /* Tailwind CSS classes */
+  font-size: 2rem; /* Equivalent to text-2xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  text-transform: uppercase; /* Equivalent to uppercase */
+  display: block;
+  margin-top: 0.5rem; /* Equivalent to mt-2 */
+}
+
+.backButton {
+  /* Tailwind CSS classes */
+  font-size: 2rem; /* Equivalent to text-2xl */
+  text-transform: uppercase; /* Equivalent to uppercase */
+  width: 100%; /* Equivalent to w-full */
+  text-align: center; /* Equivalent to text-center */
+  margin-top: 2.5rem; /* Equivalent to mt-20 */
+  background-image: linear-gradient(
+    to right,
+    #c2f8c2,
+    #1f932a
+  ); /* Equivalent to bg-gradient-to-r */
+  padding: 0.75rem; /* Equivalent to p-3 */
+  border-radius: 0.5rem; /* Equivalent to rounded-md */
+  color: white; /* Equivalent to text-white */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* Equivalent to shadow-custom */
+  cursor: pointer;
+}
+
+.backButton:hover {
+  /* Tailwind CSS hover classes */
+  filter: brightness(110%);
+}

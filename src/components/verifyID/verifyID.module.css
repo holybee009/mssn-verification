@@ -1,0 +1,87 @@
+/* verifyId.module.css */
+.content {
+  /* Tailwind CSS classes */
+  padding-top: 1rem; /* Equivalent to py-4 */
+  padding-bottom: 1rem; /* Equivalent to py-4 */
+  padding-left: 0.5rem; /* Equivalent to px-2 */
+  padding-right: 0.5rem; /* Equivalent to px-2 */
+  width: 100%; /* Equivalent to w-full */
+}
+
+.header {
+  /* Tailwind CSS classes */
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Equivalent to w-full */
+}
+
+.title {
+  /* Tailwind CSS classes */
+  font-weight: bold; /* Equivalent to font-bold */
+  font-size: 2rem; /* Equivalent to text-2xl */
+  text-transform: uppercase; /* Equivalent to uppercase */
+  text-align: center; /* Equivalent to text-center */
+}
+
+.cancelIcon {
+  /* Tailwind CSS classes */
+  width: 2rem; /* Equivalent to w-16 */
+  height: auto; /* Equivalent to h-auto */
+  justify-self: center; /* Equivalent to justify-self-start */
+  justify-self: center; /* Equivalent to self-start */
+  text-align: center; /* Equivalent to text-center */
+  padding-left: 2.5rem; /* Equivalent to pl-10 */
+  margin-top: -1.75rem; /* Equivalent to mt--7 */
+}
+
+.form {
+  /* Tailwind CSS classes */
+  margin-top: 2rem; /* Equivalent to mt-8 */
+}
+
+.label {
+  /* Tailwind CSS classes */
+  font-size: 1.5rem; /* Equivalent to text-xl */
+  text-transform: capitalize; /* Equivalent to capitalize */
+}
+
+.input {
+  /* Tailwind CSS classes */
+  border: none;
+  width: 60%;
+  border-bottom: 1px solid #4b5563; /* Equivalent to border-b border-gray-600 */
+  height: 30px;
+  padding: 5px 2px;
+}
+.input:focus {
+  outline: none; /* Removes the default focus outline */
+  border: none; /* Removes the border */
+  border-bottom: 1px solid #4b5563;
+  font-size: 24px;
+}
+
+.button {
+  /* Tailwind CSS classes */
+  font-size: 24px;
+  display: block;
+  margin-top: 5rem; /* Equivalent to mt-20 */
+  background-image: linear-gradient(
+    to right,
+    #c2f8c2,
+    #1f932a
+  ); /* Equivalent to bg-gradient-to-r */
+  border: none;
+  width: 100%; /* Equivalent to w-full */
+  text-align: center; /* Equivalent to text-center */
+  text-transform: capitalize; /* Equivalent to capitalize */
+  padding: 0.75rem; /* Equivalent to p-3 */
+  border-radius: 0.5rem; /* Equivalent to rounded-md */
+  color: white; /* Equivalent to text-white */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* Equivalent to shadow-custom */
+  cursor: pointer;
+}
+
+.button:hover {
+  /* Tailwind CSS hover classes */
+  filter: brightness(110%);
+}
